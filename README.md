@@ -1,6 +1,6 @@
 ## E(n)-Equivariant Transformer
 
-Implementation of E(n)-Equivariant Transformer, which extends the ideas from Welling's <a href="https://github.com/lucidrains/egnn-pytorch">E(n)-Equivariant Graph Neural Network</a> with attention.
+Efficient Implementation of E(n)-Equivariant Transformer, which extends the ideas from Welling's <a href="https://github.com/lucidrains/egnn-pytorch">E(n)-Equivariant Graph Neural Network</a> with attention using google recent paper "Self-attention Does Not Need O(n^2) Memory" (Rabe&Staats'21).
 
 ## Install
 
@@ -170,3 +170,11 @@ $ python denoise.py
     primaryClass = {cs.CL}
 }
 ```
+@misc{rabe2021selfattention,
+      title={Self-attention Does Not Need $O(n^2)$ Memory}, 
+      author={Markus N. Rabe and Charles Staats},
+      year={2021},
+      eprint={2112.05682},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
